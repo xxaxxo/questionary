@@ -1,0 +1,30 @@
+{
+  "name": "xXc/Questionary",
+  "description": "A Questionary package",
+  "type": "project",
+  "keywords": [
+    "questionary",
+    "poll",
+    "question",
+    "lexicon diary",
+    "xxc"
+  ],
+  "authors": [
+    {
+      "name": "Michael Kumar",
+      "email": "m.kumar@abv.bg"
+    }
+  ],
+  "require": {},
+  "require-dev": {
+    "phpspec/phpspec": "^3.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "xxc\\questionary\\": "src"
+    },
+    "files": [
+    ]
+  },
+  "license": "MIT"
+}
