@@ -1,5 +1,5 @@
 suites:
    acme_suite:
-       namespace:  xxc\questionary\
-       psr4_prefix:  xxc\questionary
+       namespace:  xXc\Questionary\
+       psr4_prefix:  xXc\Questionary
        src_path:  src/

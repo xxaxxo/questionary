@@ -4,6 +4,7 @@
   "type": "project",
   "keywords": [
     "questionary",
+    "questionnaire",
     "poll",
     "question",
     "lexicon diary",
@@ -17,14 +18,22 @@
   ],
   "require": {},
   "require-dev": {
-    "phpspec/phpspec": "^3.4"
+    "phpunit/phpunit": "^5.4"
   },
   "autoload": {
     "psr-4": {
-      "xxc\\questionary\\": "src"
+      "xXc\\Questionary\\": "src"
     },
     "files": [
     ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "xXc\\Questionary\\Tests\\": "tests"
+    }
+  },
+  "scripts": {
+    "test": "phpunit"
   },
   "license": "MIT"
 }
